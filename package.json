@@ -1,0 +1,32 @@
+{
+  "name": "vue2-google-maps",
+  "version": "0.0.1",
+  "description": "Helper package with Vue2 components for GoogleMaps.",
+  "author": "Miloš Paunović <paun992@hotmail.com>",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint ./ --fix",
+    "test": "mocha test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MilosPaunovic/vue2-google-maps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MilosPaunovic/vue2-google-maps/issues"
+  },
+  "homepage": "https://github.com/MilosPaunovic/vue2-google-maps#readme",
+  "license": "MIT",
+  "keywords": [
+    "vue2",
+    "google-maps"
+  ],
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "eslint": "^7.28.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-vue": "^7.11.0",
+    "mocha": "^9.0.0"
+  }
+}
